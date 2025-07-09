@@ -35,7 +35,6 @@ class BankAccount:
         Money must be a number and be positive
         @ret an integer, -1 if the action failed and the new account balance otherwise
         """
-        print(self.isNumber(amount))
         if (not self.isNumber(amount)) or (amount < 0):
             print("Invalid amount!")
             return -1
