@@ -18,6 +18,7 @@ class TestBankAccount(unittest.TestCase):
         self.assertEqual(temp.withdraw("cat"), -1)
         self.assertEqual(temp.withdraw(100.5), 799.5)
         self.assertNotEqual(temp.withdraw(50), 750)
+        self.assertEqual(temp.withdraw(10000), -1)
 
 
 if __name__ == "__main__":
