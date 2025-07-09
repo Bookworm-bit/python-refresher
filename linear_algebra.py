@@ -57,5 +57,3 @@ A = np.array([[1, 2], [3, 4]])
 print("Problem 6")
 
 print(A.T)
-
-print()
